@@ -1,6 +1,10 @@
 @import url(fontawesome-all.min.css);
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
 
+=======
+@import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic")
+>>>>>>> 975af5b2b1385cd2dcbb993ac32d7e909010ce77
 
 html,
 body,
@@ -165,11 +169,19 @@ body {
 	-ms-overflow-style: scrollbar;
 }
 
+<<<<<<< HEAD
 @media screen and (min-width: 480px) and (max-width: 1024px;) {
 
 	html,
 	body { background-color: bisque;
 	
+=======
+@media screen and (max-width: 480px) {
+
+	html,
+	body {
+		min-width: 320px;
+>>>>>>> 975af5b2b1385cd2dcbb993ac32d7e909010ce77
 	}
 
 }
